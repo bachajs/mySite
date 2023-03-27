@@ -1,0 +1,100 @@
+main{
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: block;
+    width: auto;
+}
+
+body{
+    background-image: url(uc-campus.jpg);
+    background-repeat: no-repeat;
+    color: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #F2545B;
+    color: #F3F7F0;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+}
+
+nav{
+    background-color: #19323C;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul li{
+    display: flex;
+    list-style: none;
+    padding: 14px 16px;
+}
+
+nav ul li:hover{
+    background-color: #111;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #A93F55;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #8C5E58;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px #CCCCCC;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
+}
+
+footer{
+    font-size: 75%;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+#contact{font-size: 90%;}
+
+#wrapper{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    min-width: 900px;
+    max-width: 2050px;
+    box-shadow: 3px 3px #19323C;
+}
+
+#heroHome{
+    height: 450px;
+    background-image: url(focus.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.gridCon{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.gridItem{
+    margin: 2px auto 2px auto;
+}
